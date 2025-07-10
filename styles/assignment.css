@@ -4,6 +4,11 @@
     font-family: Raleway;
 }
 
+/* body */
+body {
+    background-color: #F5F8FF;
+}
+
 /* Shared classes start */
 .btn-primary {
     background-color: #4E47FF;
@@ -150,3 +155,66 @@ main {
 
 
 /* user-section-container end */
+
+/* <!-- user feedback section start  --> */
+.feedback-section-container {
+    margin-bottom: 137px;
+}
+
+.feedback-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feedback-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feeback-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+
+
+}
+
+.feedback-card-middle-content {
+    margin: 24px 0px;
+}
+
+.user-tite {
+    color: #1E1E1E;
+}
+
+.user-subTitle {
+    color: #1E1E1E;
+    margin-top: 8px;
+}
+
+.reviewer {
+    display: flex;
+    gap: 12px;
+}
+
+.reviewer-img {
+    border-radius: 100%;
+}
+
+.reviewer-name {
+    color: #757575;
+    font-weight: bold;
+}
+
+.reviewer-date {
+    color: #B3B3B3;
+    margin-top: 4px;
+}
+
+
+
+/* <!-- user feedback section end  --> */
