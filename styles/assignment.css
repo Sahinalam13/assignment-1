@@ -218,3 +218,34 @@ main {
 
 
 /* <!-- user feedback section end  --> */
+/* <!-- focus section start --> */
+.focus-section-container{
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    border-radius: 14px;
+    
+    
+}
+.focus-content{
+    text-align: center;
+  
+}
+.focus-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.fucus-subTitle{
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.focus-button{
+    margin-bottom: 20px;
+}
+.focus-img img{
+    border-radius: 48px;
+}
+
+/* <!-- focus section end --> */
+
