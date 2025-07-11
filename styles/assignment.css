@@ -219,33 +219,94 @@ main {
 
 /* <!-- user feedback section end  --> */
 /* <!-- focus section start --> */
-.focus-section-container{
+.focus-section-container {
     background-color: #FFFFFF;
     padding: 71px 150px;
     border-radius: 14px;
-    
-    
+    margin-bottom: 92px;
+
+
 }
-.focus-content{
+
+.focus-content {
     text-align: center;
-  
+
 }
-.focus-title{
+
+.focus-title {
     color: rgba(0, 0, 0, 1);
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.fucus-subTitle{
-    color:rgba(0, 0, 0, 0.5);
+
+.fucus-subTitle {
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
-.focus-button{
+
+.focus-button {
     margin-bottom: 20px;
 }
-.focus-img img{
+
+.focus-img img {
     border-radius: 48px;
 }
 
 /* <!-- focus section end --> */
 
+/* touch section start */
+.touch-section-container {
+    padding: 71px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+
+}
+
+.touch-title-left {
+    color: rgba(0, 0, 0, 1);
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.touch-form-right {
+    width: 497px;
+}
+
+.form-field h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inter;
+    margin-bottom: 10px;
+}
+
+.form-field {
+    margin-bottom: 19px;
+}
+
+.form-field input {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding: 20px 32px;
+    width: 431px;
+
+}
+
+.form-field textarea {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding: 20px 32px;
+    width: 431px;
+}
+
+
+.btn-submit{
+    width: 497px;
+}
+
+/* touch section end */
